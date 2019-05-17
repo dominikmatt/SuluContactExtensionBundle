@@ -80,7 +80,7 @@
             <tag name="sulu_admin.content_navigation" alias="account"/>
             <tag name="sulu.context" context="admin"/>
             <call method="setAccountTypesConfig">
-                <argument key="accountTypes">%sulu_contact_extension.account_types%</argument>
+                <argument type="collection">%sulu_contact_extension.account_types%</argument>
             </call>
         </service>
 
